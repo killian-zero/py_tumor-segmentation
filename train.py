@@ -16,7 +16,7 @@ from PIL import Image
 import PIL
 import cv2
 from matplotlib import pyplot as plt
-from vitunet.VIT import TransformerModel
+from VIT import TransformerModel
 #from medpy.metric.binary import obj_asd,asd,hd,dc,assd,jc
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 import segmentation_models_pytorch as smp
